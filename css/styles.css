@@ -3,6 +3,8 @@
   --accent-color: #2196F3;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
+  --dark-theme-color: #2F303A;
+  --white-color: #FFFFFF;
 }
 body {
   font-family: var(--text-font);
@@ -26,8 +28,10 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color: var (--primary-text-color);
+  color: var(--primary-text-color);
 }
+
+
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus,
 .nav-list .current {
@@ -37,6 +41,19 @@ body {
 /* ========== END HEADER ========== */
 
 /* ========== COMPONENTS ========== */
+a{
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+
+.dark-theme{
+  background-color: var(--dark-theme-color);
+}
+
+
+
 .email-link,
 .tel-link {
   font-weight: 500;
@@ -121,13 +138,16 @@ letter-spacing: 0.03em;
 /* ========== End Our team========== */
 
 /* ========== Footer========== */
-.address{
+.contact-information{
+font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 1.171;
-letter-spacing: 0.03em;}
+letter-spacing: 0.03em;
+color: red;
+}
 
-/*color: #FFFFFF;*/
+
 /* ========== End Footer========== */
 
 
