@@ -3,12 +3,13 @@
   --accent-color: #2196F3;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --dark-theme-color: #2F303A;
+  --dark-theme-color: #000000;
   --white-color: #FFFFFF;
 }
 body {
   font-family: var(--text-font);
   color: var(--primary-text-color);
+  
 }
 /* ========== HEADER ========== */
 
@@ -138,14 +139,7 @@ letter-spacing: 0.03em;
 /* ========== End Our team========== */
 
 /* ========== Footer========== */
-.contact-information{
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.171;
-letter-spacing: 0.03em;
-color: red;
-}
+
 
 
 /* ========== End Footer========== */
@@ -181,3 +175,13 @@ color: var(--secondary-text-color);
 }
 
 /* ========== END Portfolio ========== */
+
+
+
+.contact-information-street{
+font-style: normal;
+font-size: 14px;
+line-height: 1.171;
+letter-spacing: 0.03em;
+color: var(--white-color);
+}
