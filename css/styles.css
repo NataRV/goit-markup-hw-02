@@ -9,7 +9,10 @@
 body {
   font-family: var(--text-font);
   color: var(--primary-text-color);
-  
+}
+
+.address {
+  font-style: normal;
 }
 /* ========== HEADER ========== */
 
@@ -183,5 +186,5 @@ font-style: normal;
 font-size: 14px;
 line-height: 1.171;
 letter-spacing: 0.03em;
-color: var(--white-color);
+color: var(--white-color); 
 }
