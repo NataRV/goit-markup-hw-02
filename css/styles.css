@@ -159,28 +159,30 @@ line-height: 1.171;
 letter-spacing: 0.03em;
 color: var(--white-color);
 }
-.contact-information-list-item{
+.contact-information-email,
+.contact-information-phone{
 font-size: 14px;
 line-height: 1.171;let
 letter-spacing: 0.03em;
 color: var(--light-grey-color);
 
 }
-
+.logo-footer{
+  color: var(--white-color);
+}
 /* ========== End Footer========== */
 
 
 /* ========== Portfolio ========== */
 
-.project-name{
+.project-name {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--primary-text-color);
 }
-.project-type{
-font-weight: normal;
+.project-type {
 font-size: 16px;
 line-height: 1.187;
 letter-spacing: 0.03em;
