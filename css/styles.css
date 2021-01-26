@@ -22,7 +22,7 @@ body {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--dark-theme-color);
 }
 .logo-web {
   color: var(--accent-color);
@@ -39,12 +39,26 @@ body {
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus,
 .nav-list .current {
-  color: var(--accent-color);
+color: var(--accent-color);
 }
 
 /* ========== END HEADER ========== */
 
 /* ========== COMPONENTS ========== */
+
+modal-btn{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.187;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
 a{
   text-decoration: none;
 }
@@ -80,7 +94,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.167;
 letter-spacing: 0.03em;
-color: var(  --primary-text-color);
+color: var( --primary-text-color);
 }
 
  
@@ -95,19 +109,9 @@ font-size: 44px;
 line-height: 1.363;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-/*color: #FFFFFF;*/
-
-.order-btn{
-font-weight: 700;
-background-color: var(--accent-color);
-font-size: 16px;
-line-height: 1.875
-letter-spacing: 0.06em;
-
-
-/*color: #FFFFFF;*/
-}
+color: var(--white-color);
 /* ========== END HERO ========== */
+
 /* ========== Feature========== */
 .feature-title{
 font-weight: 700;
@@ -118,10 +122,10 @@ text-transform: uppercase;
 color: var( --primary-text-color);
 }
 .feature-text{
-font-weight: normal;
 font-size: 14px;
 line-height: 1.714;
-letter-spacing: 0.03em
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
 
 }
 /* ========== End Feature========== */
@@ -134,10 +138,10 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 }
 .job-title{
-font-weight: normal;
 font-size: 16px;
 line-height: 1.188;
 letter-spacing: 0.03em;
+color: var(--secondary-text-color);
 }
 /* ========== End Our team========== */
 
@@ -149,25 +153,13 @@ letter-spacing: 0.03em;
 
 
 /* ========== Portfolio ========== */
-.btn-projects{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.162;
-text-align: center;
-letter-spacing: 0.03em;
-}
-
-
-.btn-projects:hover,
-.btn-projects:focus {
- color: var(--accent-color);
-}
 
 .project-name{
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
+color: var(--primary-text-color);
 }
 .project-type{
 font-weight: normal;
