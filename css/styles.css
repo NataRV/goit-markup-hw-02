@@ -3,8 +3,10 @@
   --accent-color: #2196F3;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --dark-theme-color: #000000;
+  --dark-theme-color: #2F303A;
   --white-color: #FFFFFF;
+  --black-color: #000000;
+  --light-grey-color:rgba(255, 255, 255, 0.6);
 }
 body {
   font-family: var(--text-font);
@@ -18,11 +20,12 @@ body {
 
 .logo-studio,
 .logo-web {
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  color: var(--dark-theme-color);
+  color: var(--black-color);
 }
 .logo-web {
   color: var(--accent-color);
@@ -146,8 +149,19 @@ color: var(--secondary-text-color);
 /* ========== End Our team========== */
 
 /* ========== Footer========== */
+.contact-information-street{
+font-size: 14px;
+line-height: 1.171;
+letter-spacing: 0.03em;
+color: var(--white-color);
+}
+.contact-information-list-item{
+font-size: 14px;
+line-height: 1.171;let
+letter-spacing: 0.03em;
+color: var(--light-grey-color);
 
-
+}
 
 /* ========== End Footer========== */
 
@@ -170,13 +184,3 @@ color: var(--secondary-text-color);
 }
 
 /* ========== END Portfolio ========== */
-
-
-
-.contact-information-street{
-font-style: normal;
-font-size: 14px;
-line-height: 1.171;
-letter-spacing: 0.03em;
-color: var(--white-color); 
-}
