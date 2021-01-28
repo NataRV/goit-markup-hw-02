@@ -1,12 +1,13 @@
 :root {
   --text-font: "Roboto", sans-serif;
-  --accent-color: #2196F3;
+  --accent-color: #2196f3;
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --dark-theme-color: #2F303A;
-  --white-color: #FFFFFF;
+  --dark-theme-color: #2f303a;
+  --white-color: #ffffff;
   --black-color: #000000;
-  --light-grey-color:rgba(255, 255, 255, 0.6);
+  --light-grey-color: rgba(255, 255, 255, 0.6);
+  --light-grey-bg-color: #f5f4fa;
 }
 body {
   font-family: var(--text-font);
@@ -38,42 +39,40 @@ body {
   color: var(--primary-text-color);
 }
 
-
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus,
 .nav-list .current {
-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* ========== END HEADER ========== */
 
 /* ========== COMPONENTS ========== */
 
-.modal-btn{
-font-weight: 700;
-font-size: 16px;
-line-height: 1.187;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.187;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--light-grey-bg-color);
 }
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
-a{
+a {
   text-decoration: none;
 }
-ul{
+ul {
   list-style-type: none;
 }
 
-.dark-theme{
+.dark-theme {
   background-color: var(--dark-theme-color);
 }
-
-
 
 .email-link,
 .tel-link {
@@ -81,112 +80,120 @@ ul{
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-  color:var(--secondary-text-color) ;
+  color: var(--secondary-text-color);
 }
 .email-link:hover,
-.email-link:focus{
+.email-link:focus {
   color: var(--accent-color);
 }
 .tel-link:hover,
-.tel-link:focus{
+.tel-link:focus {
   color: var(--accent-color);
 }
 
-.section-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.167;
-letter-spacing: 0.03em;
-color: var( --primary-text-color);
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
-
- 
-
 
 /* ========== END COMPONENTS ========== */
 
 /* ========== HERO ========== */
-.hero-title{
-font-weight: 900;
-font-size: 44px;
-line-height: 1.363;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: var(--white-color);
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
 }
-.hero-btn{
-  background-color: var(--accent-color)
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--accent-color);
 }
 /* ========== END HERO ========== */
 
 /* ========== Feature========== */
-.feature-title{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.142;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var( --primary-text-color);
+.feature-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
 }
-.feature-text{
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
-
+.feature-text {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 /* ========== End Feature========== */
 /* ========== Our team========== */
-.team-member{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.188;
-letter-spacing: 0.03em;
-color: var(--primary-text-color);
+.our-team-section {
+  background-color: var(--light-grey-bg-color);
 }
-.job-title{
-font-size: 16px;
-line-height: 1.188;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.job-title {
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 /* ========== End Our team========== */
 
 /* ========== Footer========== */
-.contact-information-street{
-font-size: 14px;
-line-height: 1.171;
-letter-spacing: 0.03em;
-color: var(--white-color);
+.contact-information-street {
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
 }
 .contact-information-email,
-.contact-information-phone{
-font-size: 14px;
-line-height: 1.171;let
-letter-spacing: 0.03em;
-color: var(--light-grey-color);
-
+.contact-information-phone {
+  font-size: 14px;
+  line-height: 1.171;
+  letter-spacing: 0.03em;
+  color: var(--light-grey-color);
 }
-.logo-footer{
+.logo-footer {
   color: var(--white-color);
 }
 /* ========== End Footer========== */
 
-
 /* ========== Portfolio ========== */
 
 .project-name {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 .project-type {
-font-size: 16px;
-line-height: 1.187;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 /* ========== END Portfolio ========== */
